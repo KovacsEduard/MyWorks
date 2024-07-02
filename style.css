@@ -88,25 +88,25 @@ header .info-text .scroll::before{
     }
 }
 
-#about, #features, #works{
+#about, #works{
     background-color: #2b2f4b;
     padding: 40px;
 }
 
-#about .header, #features .header, #works .header{
+#about .header, #works .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
 
-#about .header h1, #features .header h1, #works .header h1{
+#about .header h1, #works .header h1{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
 
-#about .header a, #features .header a, #works .header a{
+#about .header a, #works .header a{
     text-decoration: none;
     font-size: 1.3em;
     color: #fff;
@@ -117,12 +117,12 @@ header .info-text .scroll::before{
     transition: all 0.3s ease;
 }
 
-#about .header a:hover, #features .header a:hover, #works .header a:hover{
+#about .header a:hover, #works .header a:hover{
     border-color: #fff;
     box-shadow: none;
 }
 
-#about .card, #features .card, #works .card{
+#about .card, #works .card{
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     border-radius: 20px;
@@ -132,7 +132,7 @@ header .info-text .scroll::before{
     transition: all 0.3s ease;
 }
 
-#about .card:hover, #features .card:hover, #works .card:hover{
+#about .card:hover, #works .card:hover{
     border-color: #fff;
     box-shadow: none;
 }
@@ -150,7 +150,7 @@ header .info-text .scroll::before{
     justify-content: center;
 }
 
-#about .card .info h1, #features .card .info h1, #works .card .info h1{
+#about .card .info h1, #works .card .info h1{
     margin-bottom: 20px;
     color: #fff;
     font-size: 1.7rem;
@@ -158,20 +158,20 @@ header .info-text .scroll::before{
     font-family: 'Ubuntu';
 }
 
-#about .card .info p, #features .card .info p, #works .card .info p{
+#about .card .info p, #works .card .info p{
     color: #ccc;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
 
-#features .feature-cards, #works .works-cards{
+#works .works-cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
 }
 
-#features .feature-cards .card, #works .works-cards .card{
+#works .works-cards .card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +179,7 @@ header .info-text .scroll::before{
     min-width: 350px;
 }
 
-#features .feature-cards .card .info i, #works .works-cards .card .info i{
+#works .works-cards .card .info i{
     color: #fff;
     font-size: 8rem;
     width: 100%;
@@ -191,7 +191,7 @@ header .info-text .scroll::before{
     text-align: center;
 }
 
-#features .feature-cards .card .info p, #works .works-cards .card .info p{
+#works .works-cards .card .info p{
     font-size: 1.1rem;
     text-align: initial;
 }
