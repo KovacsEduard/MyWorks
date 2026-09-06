@@ -20,7 +20,7 @@ export default function Projects() {
             desc: t.projects.gepeszeti.desc,
             image: schoolImg,
             tag: t.projects.gepeszeti.tag,
-            liveUrl: "https://sites.google.com/view/webalapok-eduard/projekt-11-szf",
+            liveUrl: "https://sites.google.com/view/webalapok-eduard/12-szvt",
         },
         {
             title: t.projects.mits.title,

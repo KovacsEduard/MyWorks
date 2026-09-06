@@ -33,7 +33,7 @@ export default function Contact() {
                         </a>
 
                         {/* Phone Card */}
-                        <a href="tel:+36204311776" 
+                        <a href="tel:+36303682033" 
                            className="no-underline flex items-center gap-[18px] border rounded-[14px] px-6 py-[22px] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)] hover:shadow-lg" 
                            style={{ background: 'var(--surface)', borderColor: 'var(--border)' }}>
                             <div className="w-10 h-10 flex items-center justify-center border rounded-[10px] flex-shrink-0" 
@@ -42,7 +42,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <div className="text-[0.75rem] font-outfit font-bold uppercase tracking-widest mb-0.5" style={{ color: 'var(--accent)' }}>{t.contact.phone}</div>
-                                <div className="text-[0.88rem]" style={{ color: 'var(--text2)' }}>+36 20 431 1776</div>
+                                <div className="text-[0.88rem]" style={{ color: 'var(--text2)' }}>+36 30 368 2033</div>
                             </div>
                         </a>
 

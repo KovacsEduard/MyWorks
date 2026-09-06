@@ -35,7 +35,7 @@ export default function About() {
                         {/* Stats Cards */}
                         <div className="grid grid-cols-2 gap-4">
                             <div className="border rounded-[14px] p-6 flex flex-col gap-1.5 transition-all duration-300 hover:shadow-lg hover:border-[var(--border-hover)]" style={{ background: 'var(--surface)', borderColor: 'var(--border)' }}>
-                                <span className="font-outfit font-extrabold text-[2rem] leading-none" style={{ color: 'var(--accent)' }}>2+</span>
+                                <span className="font-outfit font-extrabold text-[2rem] leading-none" style={{ color: 'var(--accent)' }}>3+</span>
                                 <span className="text-[0.82rem] font-medium" style={{ color: 'var(--text2)' }}>{t.about.yearsExperience}</span>
                             </div>
 
